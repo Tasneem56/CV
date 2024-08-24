@@ -1,0 +1,16 @@
+.container{
+    position: relative
+}
+.img{
+    display: flex;
+    justify-content: center;
+
+}
+.image{
+    width: 80%;
+}
+.skills{
+    position: absolute;
+    top: 0%;
+    left: 18%;
+}

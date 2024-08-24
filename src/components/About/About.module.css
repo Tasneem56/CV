@@ -1,0 +1,19 @@
+img{
+    width: 20%;
+    justify-content: center;
+}
+.img{
+    display: ruby;
+}
+
+.text{
+    text-align: center;
+    margin-top: -50px;
+}
+
+p{
+    font-size: 20px;
+}
+.skills ul li{
+    display: block;
+}
