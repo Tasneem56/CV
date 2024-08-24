@@ -1,37 +1,39 @@
-import style from "./Header.module.css";
-function Header() {
+import React from 'react';
+import styles from './Header.module.css';
+
+function Header(){
     return (
-        <section className={style.header}>
-            <div className="row">
-                <div className="col-sm-12 col-md-6">
-                    <nav>
-                        <div className={style.name}>
-                            <h2>Tasneem Mohamed Mahmoud</h2>
-                        </div>
-                        <ul>
-                            {/* <li className={style.name}>
-                    <h2>Tasneem Mohamed Mahmoud</h2>
-                </li> */}
-                            <li className="nav-item">
-                                <a href="#">About</a>
-                            </li>
-                            <li className="nav-item">
-                                <a href="#">Skills</a>
-                            </li>
-                            <li className="nav-item">
-                                <a href="#">Projects</a>
-                            </li>
-                            <li className="nav-item">
-                                {/* <a href="#">Contacts</a> */}
-                                <button >
-                                    Contacts
-                                </button>
-                            </li>
-                        </ul>
-                    </nav>
+        <header className={styles.header}>
+            <div className="container">
+                <div className="row align-items-center">
+                    <div className="col-sm-12 col-md-6">
+                        <h1 className={styles.title}>Tasneem Mohamed</h1>
+                    </div>
+                    <div className="col-sm-12 col-md-6">
+                        <nav>
+                            <ul className="nav justify-content-end">
+                                <li className="nav-item">
+                                    <a href="#about" className={`nav-link ${styles.navLink}`}>About</a>
+                                </li>
+                                <li className="nav-item">
+                                    <a href="#skills" className={`nav-link ${styles.navLink}`}>Skills</a>
+                                </li>
+                                <li className="nav-item">
+                                    <a href="#portfolio" className={`nav-link ${styles.navLink}`}>Portfolio</a>
+                                </li>
+                                <li className="nav-item">
+                                    <a href="#Projects" className={`nav-link ${styles.navLink}`}>Projects</a>
+                                </li>
+                                <li className="nav-item">
+                                    <a href="#contact" className={`nav-link ${styles.navLink}`}>Contact</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
                 </div>
             </div>
-        </section>
+        </header>
     );
-}
+};
+
 export default Header;

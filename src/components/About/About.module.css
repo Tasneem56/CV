@@ -1,19 +1,30 @@
-img{
-    width: 20%;
-    justify-content: center;
-}
-.img{
-    display: ruby;
-}
-
-.text{
-    text-align: center;
-    margin-top: -50px;
+.about {
+    position: relative;
+    padding: 50px 0;
+    background-color: var(--background-color);
+    text-align: left;
 }
 
-p{
-    font-size: 20px;
+.react {
+    position: absolute;
+    top: 25px;
+    right: 120px;
+    font-size: 70px;
+    animation: rotate infinite 3s linear;
 }
-.skills ul li{
-    display: block;
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.aboutText {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: var(--text-color);
 }
