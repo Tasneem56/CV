@@ -10,20 +10,19 @@ function Courses() {
                         <h2 style={{ color: `var(--main-color)` }}>Courses : </h2>
                         <p className={style.p}>
                             <h4 style={{ color: `var(--secondary-color)` }}>●	React.js</h4>
-                            - Online Course <p style={{ color: `#808080` }}>Jun 2024</p><br />
-                            - (JS revision – React basics – React Hooks – Redux
-                            toolkit)
+                            - (JS revision – React basics – React Hooks – Redux toolkit)<br />
+                            - Online Course <p style={{ color: `#808080` }}>Jun 2024</p>
                         </p>
                         <p className={style.p}>
                             <h4 style={{ color: `var(--secondary-color)` }}>●	Frontend Web Development</h4>
-                            - Information Technology Institute (ITI) <p style={{ color: `#808080` }}>Jul 2023 - Sep 2023</p><br />
-                            - (HTML - CSS - JAVASCRIPT - ES6 - Bootstrap5 - React.js)
+                            - (HTML - CSS - JAVASCRIPT - ES6 - Bootstrap5 - React.js)<br />
+                            - Information Technology Institute (ITI) <p style={{ color: `#808080` }}>Jul 2023 - Sep 2023</p>
                         </p>
                         <p className={style.p}>
                             <h4 style={{ color: `var(--secondary-color)` }}> ●	Web development basics
                             </h4>
+                            - (HTML5 - CSS3 - JS )<br />
                             - Online Course <p style={{ color: `#808080` }}>Feb 2023</p>
-                            - (HTML5 - CSS3 - JS )
                         </p>
                     </div>
                     <div className="col-sm-12 col-md-4">
