@@ -9,10 +9,10 @@ function Courses() {
                     <div className='col-sm-12 col-md-6'>
                         <h2 style={{ color: `var(--main-color)` }}>Courses : </h2>
                         <p className={style.p}>
-                            <h4 style={{ color: `var(--secondary-color)` }}>●	React.js</h4>
-                            - Online Course Jun 2023<br />
-                            - (JS revision – React basics – React Hooks – Redux
-                            toolkit)
+                            <h4 style={{ color: `var(--secondary-color)` }}> ●	Web development basics
+                            </h4>
+                            - Online Course Feb 2023<br />
+                            - (HTML5 - CSS3 - JS )
                         </p>
                         <p className={style.p}>
                             <h4 style={{ color: `var(--secondary-color)` }}>●	Frontend Web Development</h4>
@@ -20,11 +20,13 @@ function Courses() {
                             - (HTML - CSS - JAVASCRIPT - ES6 - Bootstrap5 - React.js)
                         </p>
                         <p className={style.p}>
-                            <h4 style={{ color: `var(--secondary-color)` }}> ●	Web development basics
-                            </h4>
-                            - Online Course Feb 2023<br />
-                            - (HTML5 - CSS3 - JS )
+                            <h4 style={{ color: `var(--secondary-color)` }}>●	React.js</h4>
+                            - Online Course Jun 2024<br />
+                            - (JS revision – React basics – React Hooks – Redux
+                            toolkit)
                         </p>
+                        
+                        
                     </div>
                     <div className="col-sm-12 col-md-4">
                         <div className={style.box}>
