@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './Header.module.css';
 
-function Header(){
+function Header() {
     return (
         <header className={styles.header}>
             <div className="container">
@@ -11,23 +11,23 @@ function Header(){
                     </div>
                     <div className="col-sm-12 col-md-6">
                         <nav>
-                            <ul className="nav justify-content-end">
-                                <li className="nav-item">
-                                    <a href="#about" className={`nav-link ${styles.navLink}`}>About</a>
-                                </li>
-                                <li className="nav-item">
-                                    <a href="#skills" className={`nav-link ${styles.navLink}`}>Skills</a>
-                                </li>
-                                <li className="nav-item">
-                                    <a href="#portfolio" className={`nav-link ${styles.navLink}`}>Portfolio</a>
-                                </li>
-                                <li className="nav-item">
-                                    <a href="#Projects" className={`nav-link ${styles.navLink}`}>Projects</a>
-                                </li>
-                                <li className="nav-item">
-                                    <a href="#contact" className={`nav-link ${styles.navLink}`}>Contact</a>
-                                </li>
-                            </ul>
+                            <div className={styles.links}>
+                                <span className={styles.icons}>
+                                    <span />
+                                    <span />
+                                    <span />
+                                </span>
+                                <ul>
+                                    <li><a href="#portfolio">Portfolio</a></li>
+                                    <li><a href="#about">About</a></li>
+                                    <li><a href="#edu">Education</a></li>
+                                    <li><a href="#courses">Courses</a></li>
+                                    <li><a href="#skills">Skills</a></li>
+                                    <li><a href="#projects">Projects</a></li>
+                                    <li><a href="#contact">Contact</a></li>
+                                </ul>
+                            </div>
+
                         </nav>
                     </div>
                 </div>

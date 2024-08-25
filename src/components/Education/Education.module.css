@@ -1,0 +1,32 @@
+.edu {
+    position: relative;
+    padding: 50px 0;
+    background-color: var(--background-color);
+}
+
+.edu p{
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: var(--text-color);
+}
+
+.edu img{
+    position: absolute;
+    top: 50px;
+    right:150px;
+}
+
+@media (max-width:768px) and (min-width:425px) {
+    .edu img{
+        top:100px;
+        right:50px;
+    }
+}
+@media (max-width:425px){
+    .edu img{
+        display: none;
+    }
+    .edu p{
+        text-align: center;
+    }
+}

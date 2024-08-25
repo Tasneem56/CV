@@ -5,23 +5,26 @@
 
 .project {
     margin-bottom: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    text-align: center;
+    justify-content: center;
 }
 
-.project img {
-    width: 100%;
-    border-radius: 10px;
-    margin-bottom: 15px;
-}
 
 .projectTitle {
     font-size: 1.5rem;
     margin-bottom: 10px;
+    color: var(--text);
 }
 
 .projectDescription {
     font-size: 1rem;
-    color: var(--text-color);
+    color: #777;
     margin-bottom: 15px;
+    height: 50px;
+    object-fit: cover;
 }
 
 .projectLink {
@@ -31,5 +34,57 @@
 }
 
 .projectLink:hover {
-    color: var(--accent-color);
+    color: var(--secondary-color);
 }
+
+
+.box {
+    overflow: hidden;
+    position: relative;
+}
+
+.box:hover .caption {
+    bottom: 0;
+}
+
+.box:hover img {
+    transform: rotate(7deg) scale(1.4);
+}
+
+.box img {
+    max-width: 100%;
+    transition: 0.3s;
+    height: 200px;
+    margin-bottom: 15px;
+    /* object-fit: cover; */
+}
+
+.box .caption {
+    position: absolute;
+    left: 0;
+    padding: 20px;
+    width: 100%;
+    transition: 0.3s;
+    bottom: -100%;
+    background-color: rgba(255, 255, 255, 0.842);
+}
+
+.box .caption h3 {
+    font-weight: normal;
+    margin-bottom: 10px;
+    color: black;
+}
+
+.box .caption p {
+    color: var(--text);
+}
+
+/* .project a {
+    background-color: var(--main-color);
+    color: white;
+    padding: 15px 20px;
+    display: block;
+    width: fit-content;
+    margin: 30px auto;
+    text-transform: uppercase;
+} */

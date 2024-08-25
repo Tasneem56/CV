@@ -3,17 +3,35 @@
     background-color: var(--background-color);
 }
 
-.form-control {
-    margin-bottom: 20px;
-    border-radius: 5px;
-    border: 1px solid #ccc;
+.info{
+    text-align: center;
+
+}
+.mail .label{
+    font-size: larger;
+    font-weight: 900;
+    
+}
+.mail :nth-child(2){
+    color: var(--secondary-color) !important;
+    font-size: x-large;
+    font-weight: 700;
+    text-decoration: none;
 }
 
-.btn-submit {
-    background-color: var(--main-color);
-    border: none;
-    padding: 10px 20px;
-    color: #fff;
-    border-radius: 5px;
-    cursor: pointer;
+.contact p{
+    color: var(--text);
+    margin-top: 30px;
+}
+
+.contact i{
+    color: var(--main-color) !important;
+    font-weight: bolder;
+    font-size: xx-large;
+    padding: 10px;
+}
+
+.contact i:hover{
+    color: var(--secondary-color) !important;
+    transform: scale(1.5);
 }

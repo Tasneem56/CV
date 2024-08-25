@@ -4,3 +4,9 @@
     color: #fff;
     text-align: center;
 }
+
+span{
+    font-weight:900;
+    line-height: 1.8px;
+    font-size: 25px;
+}

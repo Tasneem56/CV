@@ -20,43 +20,44 @@
     color: var(--text);
 }
 
-.box {
-    display: flex;
-    justify-content: center;
-}
-
-.shape {
-    margin-top: 100px;
-    display: flex;
+.progHolder{
+    margin-bottom: 20px;
     position: relative;
-    border: solid 3px var(--text);
-    background-color: var(--text);
-    align-items: center !important;
-    justify-content: center;
-    width: 150px;
-    height: 100px;
-    transition: 0.3s ease;
 }
-
-.shape::before {
-    position: absolute;
-    content: "";
-    border: solid 3px #9c9b9b;
-    background-color: #9c9b9b;
-    font-weight: 900;
-    top: -23px;
-    width: 150px;
-    left: -3px;
-    height: 20px;
+.progHolder h4{
+    margin-bottom: 15px;
+    font-weight: normal;
 }
+.progHolder .prog{
+    background-color: #dedadc;
+    height: 30px;
+    width: 90%;
 
-.code {
-    font-size: 70px;
-    font-weight: bolder;
-    color: var(--background-color);
-    transition: 0.3s ease;
 }
-
-.code:hover {
-    transform: scale(1.2);
+.progHolder .prog span{
+    display: block;
+    background-color: var(--main-color);
+    height: 100%;
+    position: relative;
+}
+.progHolder .prog span::before{
+content: attr(data-progress);
+position: absolute;
+background-color: black;
+color: white;
+top: -40px;
+right:-18px;
+padding:10px;
+width: 50;
+text-align: center;
+border-radius: 4px;
+}
+.progHolder .prog span::after{
+content: "";
+position: absolute;
+border-style: solid;
+border-width: 8px;
+border-color: black transparent transparent;
+right: -8px;
+top: -19px;
 }

@@ -1,0 +1,58 @@
+.course {
+    padding: 50px 0;
+    background-color: var(--background-color);
+}
+
+.course .p{
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: var(--text-color);
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+}
+
+.shape {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    position: relative;
+    border: solid 3px var(--text);
+    background-color: var(--text);
+    align-items: center !important;
+    justify-content: center;
+    width: 150px;
+    height: 100px;
+    transition: 0.3s ease;
+}
+
+.shape::before {
+    position: absolute;
+    content: "";
+    border: solid 3px linear-gradient(to right,
+            #d3d3d3 33.33%,
+            #a9a9a9 33.33% 66.66%,
+            #808080 66.66%);
+    background: linear-gradient(to right,
+            #d3d3d3 33.33%,
+            #a9a9a9 33.33% 66.66%,
+            #808080 66.66%);
+    font-weight: 900;
+    top: -15px;
+    width: 150px;
+    left: -3px;
+    height: 15px;
+}
+
+.code {
+    font-size: 70px;
+    font-weight: bolder;
+    color: var(--background-color);
+    transition: 0.3s ease;
+}
+
+.code:hover {
+    transform: scale(1.2);
+}
