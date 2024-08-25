@@ -7,7 +7,7 @@ import Skills from "./components/Skills/Skills";
 import Footer from "./components/Footer/Footer";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Education from "./components/Education/Education";
-import Courses from "./Courses/Courses";
+import Courses from "./components/Courses/Courses";
 
 function App() {
   return (
