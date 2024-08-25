@@ -7,7 +7,7 @@ function Education() {
             <h2 style={{ color: `var(--main-color)` }}>Education : </h2>
                 <div className='col-sm-12 col-md-6'>
                     <p>
-                        ●	Have a Bachelor’s degree in Computers and Information from Menoufia University, Shebin El-Kom.
+                        ●	Have a Bachelor’s degree in Computer science from faculty of Computers and Information Menoufia University, Shebin El-Kom. Oct 2021 - Jul 2024
                     </p>
                     <p>
                         ●	Relevant Coursework :
