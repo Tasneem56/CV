@@ -35,7 +35,7 @@ function Skills() {
                 <li><i className="fas fa-hand-holding-hand" style={{ color: `#c4a47a` }}></i> Collaboration</li>
                 <li><i className="fas fa-puzzle-piece" style={{ color: `var(--secondary-color)` }}></i> Adaptability</li>
                 <li><i className="fas fa-brain" style={{ color: `#d7ae8e` }}></i> Creativity</li>
-                <li><i className="fas fa-book" style={{ color: `#4c8bb8` }}></i> Continuous Learning</li>
+                <li><i className="fas fa-book" style={{ color: `#4c8bb8` }}></i> Rapid Learning</li>
               </ul>
           </div>
           </div>
