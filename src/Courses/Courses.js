@@ -9,16 +9,21 @@ function Courses() {
                     <div className='col-sm-12 col-md-6'>
                         <h2 style={{ color: `var(--main-color)` }}>Courses : </h2>
                         <p className={style.p}>
-                        <h4 style={{ color: `var(--secondary-color)` }}> ●	Web development basics </h4>
-                            - (HTML5 - CSS3 - Bootstrap5 - JS - ES6 )
+                        <h4 style={{ color: `var(--secondary-color)` }}> ●	Web development basics 
+                        </h4>
+                            - Online Course Feb 2023
+                            - (HTML5 - CSS3 - JS )
                         </p>
                         <p className={style.p}>
-                        <h4 style={{ color: `var(--secondary-color)` }}>●	Java Script</h4>
+                        <h4 style={{ color: `var(--secondary-color)` }}>●	React.js</h4>
+                            - Online Course Jun 2023<br />
+                            - (JS revision – React basics – React Hooks – Redux 
+                                toolkit)
                         </p>
                         <p className={style.p}>
                             <h4 style={{ color: `var(--secondary-color)` }}>●	Frontend Web Development</h4>
-                            - Information Technology Institute (ITI) Feb 2022 - Mar 2022 (3 months)<br />
-                            - I Learn Implemented responsive websites Using (HTML & CSS & JAVASCRIPT & React.js)
+                            - Information Technology Institute (ITI) Jul 2023 - Sep 2023<br />
+                            - (HTML - CSS - JAVASCRIPT - ES6 - Bootstrap5 - React.js)
                         </p>
                     </div>
                     <div className="col-sm-12 col-md-4">
