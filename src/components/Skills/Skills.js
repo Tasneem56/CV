@@ -15,11 +15,11 @@ function Skills() {
                 <li><i className="fab fa-js" style={{ color: `#ffd600` }}></i> JavaScript / ES6</li>
                 <li><i className="fab fa-bootstrap" style={{ color: `#7c18f8` }}></i> Bootstrap5</li>
                 <li><i className="fab fa-react" style={{ color: `var(--main-color)` }}></i> React.js</li>
-                <li><i className="fas fa-gear" style={{ color: `#4c8bb8` }}></i> Apis: [Axios, Fetch API]</li>
+                <li><i className="fas fa-gear" style={{ color: `#4c8bb8` }}></i> APIs: [Axios, Fetch API]</li>
                 <li><i className="fas fa-mobile-screen" style={{ color: `#1e3050` }}></i> Responsive designs</li>
                 <li><i className="fab fa-github" style={{ color: `#777` }}></i> Git / Github</li>
-                <li><i className="fas fa-file-word" style={{ color: `#4c8bb8` }}></i> Documentation: Word [Project documentation, Technical writing, Reports]</li>
-                <li><i className="fas fa-file-excel" style={{ color: `green` }}></i> Data Management: Excel [Data analysis, Pivot Tables, Data visualization]</li>
+                <li><i className="fas fa-file-word" style={{ color: `#4c8bb8` }}></i> Documentation: Word</li>
+                <li><i className="fas fa-file-excel" style={{ color: `green` }}></i> Data-Management: Excel</li>
 
               </ul>
             </div>
