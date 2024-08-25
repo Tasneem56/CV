@@ -22,7 +22,7 @@ function Courses() {
                         <p className={style.p}>
                             <h4 style={{ color: `var(--secondary-color)` }}> ●	Web development basics
                             </h4>
-                            - Online Course Feb 2023
+                            - Online Course Feb 2023<br />
                             - (HTML5 - CSS3 - JS )
                         </p>
                     </div>
